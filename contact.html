@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | ProServices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--  HEADER & NAVIGATION -->
+<header>
+    <nav>
+        <h2>ProServices</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--  CONTACT SECTION -->
+<section class="contact-section">
+    <h2>Contact Us</h2>
+    <p class="contact-desc">
+        Have questions or need our services? Send us a message and we’ll get back to you.
+    </p>
+
+    <form id="contactForm" class="contact-form">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="error" class="error-msg"></p>
+    <p id="success" class="success-msg"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p id="footer-date"></p>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
