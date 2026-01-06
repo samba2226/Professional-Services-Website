@@ -1,6 +1,6 @@
 **Professional Services Website**
  **Project Overview**
-The Professional Services Website is a responsive, multi-page web application developed to showcase business services, company information, and contact details in a professional manner. The project focuses on clean UI design, smooth navigation, and client-side interactivity using HTML, CSS, and JavaScript (DOM).
+The Professional Services Website is a responsive,multi-page web application developed to showcase business services, company information, and contact details in a professional manner. The project focuses on clean UI design, smooth navigation, and client-side interactivity using HTML, CSS, and JavaScript (DOM).
 The primary goal is to provide a cost-effective, easy-to-deploy website solution for service-based businesses while demonstrating fundamental front-end development skills and best practices.
  Features Implemented
 •	Multi-page website (Home, About, Services, Contact)
